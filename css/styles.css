@@ -11,6 +11,24 @@
   --focus-hover: #404bbf;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 body {
   color: var(--secondary-text-color);
   background-color: var(--primary-bg-color);
@@ -27,8 +45,52 @@ body {
 }
 
 /* Header*/
+.page-header {
+  background-color: tomato;
+}
+.container {
+  display: flex;
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: yellowgreen;
+}
+
+/* Site navigation */
+.site-nav {
+  display: flex;
+  align-self: center;
+}
+
+.pages-list {
+  display: flex;
+  margin-left: 76px;
+}
+
+.pages-list .item {
+  background-color: #fff;
+}
+
+.pages-list .item + .item {
+  margin-left: 40px;
+}
+
+.pages-list .link {
+  display: block;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+}
 
 .logo {
+  display: flex;
+
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -52,7 +114,18 @@ body {
 }
 
 .address {
+  display: flex;
+  margin-left: auto;
   font-style: normal;
+}
+
+/* Navigation: contacts */
+.contacts {
+  display: flex;
+}
+
+.contacts .item + .item {
+  margin-left: 40px;
 }
 
 .contacts .link {
@@ -140,6 +213,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover,
