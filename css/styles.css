@@ -51,6 +51,7 @@ body {
 
 .container {
   display: flex;
+  margin: 0;
   /* width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
@@ -60,7 +61,6 @@ body {
 
 .standart {
   width: 1158px;
-  margin: 0;
   padding: 0 15px;
 }
 
@@ -98,19 +98,18 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Menu */
 .pages-list {
   display: flex;
 }
 
 .pages-list .link {
-  display: flex;
-
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.pages-list .item {
-  margin-right: 40px;
+.pages-list {
+  gap: 40px;
 }
 
 .pages-list:last-child {
