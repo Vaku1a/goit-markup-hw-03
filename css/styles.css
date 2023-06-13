@@ -256,6 +256,10 @@ body {
 .bottom {
   display: block;
   width: 1158px;
+  /* padding: 100px 0; */
+}
+
+.page-footer {
   padding: 100px 0;
 }
 
