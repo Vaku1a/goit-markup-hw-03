@@ -167,7 +167,15 @@ body {
   background-color: var(--focus-hover);
 }
 
-/* Footer */
+/*-----------Footer---------- */
+.container {
+  padding: 100px auto;
+}
+
+.page-footer.logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .page-footer .logo-highlight {
   color: #f4f4fd;
 }
