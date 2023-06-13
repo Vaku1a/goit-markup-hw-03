@@ -228,8 +228,8 @@ body {
 }
 
 .subtitle {
-  margin-bottom: 8px
-  
+  margin-bottom: 8px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -260,8 +260,6 @@ body {
 .section-list {
   background-color: var(--primary-bg-color);
 }
-
-
 
 /* Button */
 /* .button {
