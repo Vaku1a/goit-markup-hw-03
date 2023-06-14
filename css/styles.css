@@ -269,8 +269,6 @@ body {
 
 .samples {
   padding: 120px 0;
-
-  /* background-color: tomato; */
 }
 
 .doing {
@@ -296,6 +294,43 @@ body {
 
 .sample-list .item:first-child {
   width: calc((100% - 2 * 24px) / 3);
+}
+
+/* Our Team - Section 4 */
+.our-team {
+  padding: 120px 0;
+
+  background-color: var(--secondary-acnt-bg-color);
+}
+
+.our-team {
+  /* flex-direction: column; */
+}
+
+.team-title {
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-member {
+  flex-direction: column;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list:last-child {
+  margin-right: 0;
+}
+
+.team-list .item:first-child {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* Button */
@@ -339,14 +374,17 @@ body {
 }
 
 /*----Footer----*/
-.bottom {
-  display: block;
-  width: 1158px;
-  /* padding: 100px 0; */
-}
-
 .page-footer {
   padding: 100px 0;
+}
+
+.bottom {
+  flex-direction: column;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  /* padding: 100px 0; */
 }
 
 .page-footer .logo {
