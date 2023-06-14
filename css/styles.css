@@ -113,7 +113,6 @@ body {
 }
 
 /* Address */
-
 .address {
   display: flex;
   margin-left: auto;
@@ -155,12 +154,12 @@ body {
 /* Hero - Section 1*/
 .hero-section {
   padding: 188px 0;
+  min-height: 600px;
   background-color: var(--accent-bg-color);
 }
 
 .hero {
   flex-direction: column;
-  min-height: 600px;
 }
 
 .hero-title {
@@ -253,14 +252,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* .features.color {
-  background-color: #f4f4fd;
-}
-
-.features-list.color .item {
-  background-color: var(--primary-bg-color);
-} */
-
 .sample-list {
   background-color: var(--primary-bg-color);
 }
@@ -269,6 +260,7 @@ body {
 
 .samples {
   padding: 120px 0;
+  min-height: 412px;
 }
 
 .doing {
@@ -299,6 +291,7 @@ body {
 /* Our Team - Section 4 */
 .our-team {
   padding: 120px 0;
+  min-height: 732px;
 
   background-color: var(--secondary-acnt-bg-color);
 }
@@ -372,6 +365,7 @@ body {
 /*----Footer----*/
 .page-footer {
   padding: 100px 0;
+  min-height: 312px;
 }
 
 .bottom {
