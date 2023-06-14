@@ -303,10 +303,6 @@ body {
   background-color: var(--secondary-acnt-bg-color);
 }
 
-.our-team {
-  /* flex-direction: column; */
-}
-
 .team-title {
   margin-bottom: 72px;
   margin-left: auto;
