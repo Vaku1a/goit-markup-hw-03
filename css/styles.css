@@ -29,6 +29,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 body {
   color: var(--secondary-text-color);
   background-color: var(--primary-bg-color);
@@ -249,16 +253,49 @@ body {
   color: var(--secondary-text-color);
 }
 
-.features.color {
+/* .features.color {
   background-color: #f4f4fd;
 }
 
 .features-list.color .item {
   background-color: var(--primary-bg-color);
+} */
+
+.sample-list {
+  background-color: var(--primary-bg-color);
 }
 
-.section-list {
-  background-color: var(--primary-bg-color);
+/* What we are doing - Section 3*/
+
+.samples {
+  padding: 120px 0;
+
+  /* background-color: tomato; */
+}
+
+.doing {
+  flex-direction: column;
+}
+
+.samples-title {
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.samples-list {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sample-list:last-child {
+  margin-right: 0;
+}
+
+.sample-list .item:first-child {
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 /* Button */
