@@ -189,14 +189,10 @@ body {
   background-color: var(--accent-bg-color);
 }
 
-.hero {
-  display: block;
-  width: 526px;
-}
-
 .hero-title {
+  margin: 0 auto;
   text-align: center;
-
+  max-width: 496px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
