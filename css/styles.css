@@ -409,6 +409,7 @@ body {
 }
 
 /* ------SECOND PAGES----- */
+/* ------Fileter Section----- */
 .filters {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -456,8 +457,11 @@ body {
 
 .filter-box {
   display: block;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .filter-titel {
   text-align: left;
+  margin-bottom: 8px
 }
