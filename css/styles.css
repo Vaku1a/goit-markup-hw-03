@@ -403,7 +403,7 @@ body {
   background-color: var(--accent-bg-color);
 }
 
-.page-footer .text {
+.bottom-text {
   display: inline-block;
   max-width: 264px;
   color: var(--footer-text);
