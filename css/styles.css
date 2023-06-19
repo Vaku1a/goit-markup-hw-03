@@ -233,7 +233,6 @@ body {
   padding: 120px 0;
 }
 
-/* plus h2 - portfolio */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -289,7 +288,7 @@ body {
 /* What we are doing - Section 3*/
 
 .samples {
-  padding: 120px 0;
+  padding: 0 0 120px 0;
   min-height: 412px;
 }
 
